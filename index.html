@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pot Game</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="menu">
+        <img id="menu-bg" src="image/opening.gif" alt="Menu Background">
+
+        <div id="menu-buttons">
+            <img id="start-btn" src="image/start.png" alt="Start Game">
+        </div>
+    </div>
+    <div id="content-warning" style="display:none;">
+        <div id="cw-text">
+            <p class="cw-title">!! CONTENT WARNING !!</p>
+            <p class="cw-body">
+                This experience contains physical and verbal abuse, victim blaming, light nudity!<br>
+                Please leave immediately and take care of yourself if you feel unwell during the experience.
+            </p>
+            <p class="cw-title">Controls</p>
+            <p class="cw-body">
+                [SPACE] to interact<br>
+                [M] to mute/unmute the BG music<br>
+            </p>
+        </div>
+    </div>
+    <div id="game-container">
+        <img id="background" src="" alt="">
+        <img id="sprite" src="" alt="">
+        <img id="mute-icon" src="image/unmute.png" alt="Mute/Unmute">
+        <div id="overlay-text"></div>
+        <div id="textbox">
+            <div id="textbox-text"></div>
+            <span id="textbox-arrow">▶</span>
+        </div>
+        <div id="continue-hint">(spacebar to continue)</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
